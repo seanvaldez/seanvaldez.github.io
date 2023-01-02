@@ -11,7 +11,7 @@ const Products = () => {
     <>
       <Navigation />
       <img
-        src="https://images.pexels.com/photos/341523/pexels-photo-341523.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        src="https://images.pexels.com/photos/1069798/pexels-photo-1069798.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1g"
         alt=""
         className="object-cover object-center h-96 px-0 w-full"
       />
