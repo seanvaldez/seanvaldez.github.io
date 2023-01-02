@@ -3,9 +3,14 @@ import { NavLink } from 'react-router-dom';
 
 const Navigation = () => {
   return (
-    <nav className="px-4 py-5 shadow-xl border-b flex gap-x-3">
-      <NavLink to="/">Home</NavLink>
-      <NavLink to="/products">Products</NavLink>
+    <nav className="py-5 shadow-xl border-b flex bg-white z-10 sticky top-0">
+      <div className="container flex items-center justify-between w-full">
+        <p className="font-bold">Logo</p>
+        <div className="flex items-center gap-x-4">
+          <NavLink to="/">Home</NavLink>
+          <NavLink to="/products">Products</NavLink>
+        </div>
+      </div>
     </nav>
   );
 };

@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div>
       <Navigation />
-      <p>This is better than Lazada</p>
+      <p>My first website</p>
     </div>
   );
 };
