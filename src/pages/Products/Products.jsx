@@ -10,7 +10,7 @@ const Products = () => {
   return (
     <div className="flex flex-col gap-y-4 pb-20">
       <Navigation />
-      <div className="container px-4 md:px-0 grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 gap-6">
+      <div className="container grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 gap-6">
         {products.map((product) => {
           return (
             <div
